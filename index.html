@@ -3,119 +3,36 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kimberley Muchenje</title>
 <meta name="description" content="Kimberley Tanatswa Muchenje, PhD candidate in Biology and Biological Engineering at Caltech, building genome engineering technologies from transposons for targeted DNA insertion in plants.">
 <meta name="color-scheme" content="light dark">
-<style>
-  *,*::before,*::after{box-sizing:border-box}
-  body{margin:0}
-  img{max-width:100%}
-  [hidden]{display:none!important}
-</style>
-<title>Kimberley Muchenje</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Work+Sans:wght@300;400;500&display=swap">
-<style>
-  /* Layout: a left label rail naming each section, content running in a single
-     measure beside it. Pink rules divide, blue carries every link. */
-  :root{
-    --bg:#fdfafc;
-    --fg:#141a2e;
-    --muted:#5b6480;
-    --rule:#f2d2e2;
-    --pink:#d9478c;
-    --blue:#2340c8;
-    --display:'Fraunces',Georgia,'Times New Roman',serif;
-    --body:'Work Sans',-apple-system,'Segoe UI',sans-serif;
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --bg:#121420; --fg:#eef0f8; --muted:#9aa3bf; --rule:#3d2434;
-      --pink:#f27bb0; --blue:#8fa5ff; color-scheme:dark;
-    }
-  }
-  :root[data-theme="dark"]{
-    --bg:#121420; --fg:#eef0f8; --muted:#9aa3bf; --rule:#3d2434;
-    --pink:#f27bb0; --blue:#8fa5ff; color-scheme:dark;
-  }
-
-  body{background:var(--bg);color:var(--fg);font-family:var(--body);
-       font-weight:300;line-height:1.65;-webkit-font-smoothing:antialiased}
-  .wrap{padding-left:max(16px,env(safe-area-inset-left,0px));
-        padding-right:max(16px,env(safe-area-inset-right,0px));
-        max-width:1000px;margin:0 auto}
-
-  header{border-bottom:2px solid var(--pink)}
-  .masthead{padding-block:52px 34px}
-  .eyebrow{display:flex;align-items:center;gap:10px;font-family:var(--body);
-           font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;
-           color:var(--pink);margin:0 0 .9em}
-  .eyebrow i{width:30px;height:2px;background:var(--pink);flex:none}
-  h1{font-family:var(--display);font-weight:600;font-size:clamp(2rem,6vw,3.1rem);
-     margin:0;letter-spacing:-.02em;line-height:1.08;text-wrap:balance}
-  .role{margin:.55em 0 0;color:var(--muted);font-size:1.02rem;max-width:56ch}
-  nav{display:flex;flex-wrap:wrap;gap:7px 20px;padding-block:16px;
-      border-top:1px solid var(--rule)}
-  nav a{font-size:.9rem;color:var(--blue);text-decoration:none;
-        text-underline-offset:4px}
-  nav a:hover,nav a:focus-visible{text-decoration:underline}
-
-  .row{display:grid;grid-template-columns:150px minmax(0,1fr);gap:34px;
-       padding-block:46px;border-bottom:1px solid var(--rule)}
-  .label{font-family:var(--body);font-size:.76rem;letter-spacing:.16em;
-         text-transform:uppercase;color:var(--pink);margin:0;padding-top:.45em}
-  .body-col{min-width:0}
-  .body-col > p{max-width:66ch;margin:0 0 1.15em}
-  .body-col > p:last-child{margin-bottom:0}
-  h2{font-family:var(--display);font-weight:600;font-size:1.35rem;margin:0 0 .7em;
-     letter-spacing:-.01em}
-  h3{font-family:var(--body);font-weight:500;font-size:.98rem;margin:0 0 .3em;
-     color:var(--fg)}
-  .stack{display:grid;gap:24px}
-  .stack p{margin:0;max-width:66ch;color:var(--muted);font-size:.95rem}
-  .stack ul{margin:.45em 0 0;padding-left:1.15em;display:grid;gap:9px}
-  .stack ul li{font-size:.95rem;color:var(--muted);max-width:66ch}
-  ol{margin:0;padding-left:1.2em;display:grid;gap:16px}
-  ol li{max-width:74ch;font-size:.95rem}
-  cite{font-style:italic;color:var(--muted)}
-  a{color:var(--blue)}
-  a.doi{text-decoration:none;word-break:break-word}
-  a.doi:hover,a.doi:focus-visible{text-decoration:underline}
-  .body-col > p.sub{font-family:var(--body);font-size:.76rem;letter-spacing:.16em;
-       text-transform:uppercase;color:var(--muted);margin:2.6em 0 1.1em}
-  footer{padding-block:34px;color:var(--muted);font-size:.9rem}
-  footer p{margin:0;max-width:70ch}
-
-  @media (max-width:700px){
-    .row{grid-template-columns:1fr;gap:12px;padding-block:34px}
-    .label{padding-top:0}
-    .masthead{padding-block:34px 24px}
-  }
-  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
-</style>
-
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
 <header>
-  <div class="wrap">
-    <div class="masthead">
+  <div class="wrap masthead">
+    <div class="who">
       <p class="eyebrow"><i aria-hidden="true"></i>Caltech</p>
-      <h1>Kimberley Tanatswa Muchenje</h1>
+      <p class="name">Kimberley Tanatswa Muchenje</p>
       <p class="role">PhD candidate, Division of Biology and Biological Engineering,
       California Institute of Technology</p>
     </div>
-    <nav aria-label="Sections">
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="#mentoring">Mentoring</a>
-      <a href="#news">In the news</a>
-      <a href="#contact">Contact</a>
+  </div>
+  <div class="wrap">
+    <nav aria-label="Pages">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="mentoring.html">Mentoring</a>
+      <a href="news.html">In the news</a>
+      <a href="cv.html">CV</a>
     </nav>
   </div>
 </header>
 
 <main class="wrap">
-
-  <section class="row" id="about">
+  <div class="row">
     <p class="label">About</p>
     <div class="body-col">
       <p>Kimberley Tanatswa Muchenje is a PhD candidate in the Division of Biology and
@@ -145,193 +62,14 @@
       Marino High School, on her research. She believes in paying forward the mentorship
       that shaped her own journey into science.</p>
     </div>
-  </section>
-
-  <section class="row" id="research">
-    <p class="label">Research</p>
-    <div class="body-col">
-      <p>Advancing targeted insertion into plant genomes can mitigate the effects of
-      climate change, enabling the production of resilient food crops and turning
-      non-food crops into cost-effective platforms for biofuels, biomaterials, and
-      biopharmaceuticals. Traditional approaches for DNA insertion into plant genomes
-      using <em>Agrobacterium tumefaciens</em> result in random integration, confounding
-      measurements of gene expression, circuit behavior, and pathway output with position
-      effects at the insertion site. Precise and efficient insertion of multi-kilobase
-      DNA into predefined plant genomic loci remains one of the biggest challenges in
-      plant engineering, with existing technologies limited by low efficiencies,
-      unintended changes, off-target integration, and an inability to handle large
-      payload sizes.</p>
-
-      <div class="stack">
-        <div>
-          <h3>R2 retrotransposon-mediated DNA writing in plants</h3>
-          <ul>
-            <li>Engineered the avian <em>Taeniopygia guttata</em> R2 non-LTR retroelement
-              (R2Tg) into a double-strand-break-free editor for targeted insertion of
-              2.2&ndash;5 kb DNA payloads at the 25S rDNA safe-harbor locus in
-              <em>N. benthamiana</em>, <em>A. thaliana</em>, and
-              <em>S. lycopersicum</em>, achieving insertion in up to 24% of transformed
-              cells and approximately one copy per genome by ddPCR, with stable copy
-              number across payload sizes.</li>
-            <li>Demonstrated 30-fold higher integration than Cas9-mediated
-              homology-directed repair at the same locus.</li>
-            <li>Characterized integration specificity and epigenetic outcomes using
-              long-read chromosome mapping, tagmentation-based integration-site
-              sequencing, and targeted bisulfite sequencing, observing 96% on-target
-              integration, precise 5&prime;/3&prime; junctions, and unmethylated payloads
-              in moderately methylated rDNA.</li>
-          </ul>
-        </div>
-        <div>
-          <h3>CRISPR-associated transposase (CAST)-mediated DNA insertion in plants</h3>
-          <ul>
-            <li>Adapted CRISPR-associated transposases from <em>Vibrio cholerae</em>
-              (VchCAST) and <em>Pseudoalteromonas</em> (PseCAST) for targeted insertion in
-              <em>N. benthamiana</em> leaves.</li>
-            <li>Reconstituted PACE-evolved Type I-F evoCAST in plants, reaching 8%
-              insertion of a 1 kb promoter payload at a bidirectional reporter landing
-              pad.</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Retargeting R2 editors to new genomic loci</h3>
-          <ul>
-            <li>Extended R2 DNA writing beyond 25S rDNA by fusing the retroelement to
-              SpCas9(H840A) nickase and reached 5% insertion by 5&prime;-junction ddPCR at
-              the 16C p35S-GFP locus in <em>N. benthamiana</em>.</li>
-            <li>Screened R2 fusions with enOgeuIscB, ISDra2 eTnpBc, Cas12a, and SaCas9
-              nickases using large guide RNA libraries targeting multiple loci in
-              <em>A. thaliana</em> and <em>N. benthamiana</em>.</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Developing heritable R2-mediated insertion in tomato and
-            <em>Arabidopsis thaliana</em></h3>
-          <ul>
-            <li>Discovered that constitutively active wild-type R2Tg is toxic to the
-              <em>Arabidopsis</em> germline, with transformed seeds recovered only from
-              reverse-transcriptase-dead and endonuclease-dead mutant lines.</li>
-            <li>Built R2-editor expression systems using inducible 17&beta;-estradiol,
-              dexamethasone, and methoxyfenozide promoters and developed the lab&rsquo;s
-              first successful Micro-Tom callus transformation protocol.</li>
-            <li>Validated that inducible control of R2Tg enables transformation in
-              dividing cells and developed pipelines toward heritable R2-mediated editing
-              with editor expression and stability across generations in
-              <em>Arabidopsis</em> and tomato.</li>
-          </ul>
-        </div>
-        <div>
-          <h3>R2 delivery using nanoparticles</h3>
-          <ul>
-            <li>Delivered R2 editors via <em>Photorhabdus</em> virulence cassette (PVC)
-              extracellular contractile injection system nanoparticles, observing mScarlet
-              payload accumulation validating insertion events and measured 1.5% R2Tg
-              integration after eCIS-mediated delivery.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="row" id="publications">
-    <p class="label">Publications</p>
-    <div class="body-col">
-      <ol>
-        <li><strong>Muchenje, K. T.</strong>, McCombe, C. L., Wang, Y., Oz, T. M.,
-          Li, E., Saffron, A. &amp; Demirer, G. S. Optimized R2 retroelement complexes
-          for DNA insertion into plant genomes.
-          <cite>Nature Biotechnology</cite> (2026).
-          <a class="doi" href="https://doi.org/10.1038/s41587-026-03197-y">doi:10.1038/s41587-026-03197-y</a></li>
-        <li>Li, E., Berruto, C., Oz, T. M., Grillo, E., Griffin, C., Wang, Y.,
-          <strong>Muchenje, K. T.</strong>, Jones, J. W. &amp; Demirer, G. S. Sentinel
-          plants enable quantitative monitoring of bioavailable nitrate in soils and
-          microbial environments.
-          <cite>Proceedings of the National Academy of Sciences</cite> 123, e2609666123
-          (2026).
-          <a class="doi" href="https://doi.org/10.1073/pnas.2609666123">doi:10.1073/pnas.2609666123</a></li>
-        <li>Li, E., Geng, Y., Khristoforova, T. R., Wang, Y., Jones, J. W.,
-          <strong>Muchenje, K. T.</strong>, Grillo, E., Zhang, H., Schmitz, R. J. &amp;
-          Demirer, G. S. Vacuum and sonication treatment enable efficient transient gene
-          expression in various monocot and eudicot plant seedlings.
-          <cite>ACS Synthetic Biology</cite> 15, 1452–1466 (2026).
-          <a class="doi" href="https://doi.org/10.1021/acssynbio.5c00855">doi:10.1021/acssynbio.5c00855</a></li>
-      </ol>
-
-      <p class="sub">Preprints</p>
-      <ol>
-        <li>Wang, Y., <strong>Muchenje, K. T.</strong>, Papikian, A., Legendre, M. G.,
-          Leem, E. &amp; Demirer, G. S. CRISPR-associated transposases enable
-          programmable DNA integration in plants. <cite>bioRxiv</cite> (2026).
-          <a class="doi" href="https://doi.org/10.64898/2026.07.15.738807">doi:10.64898/2026.07.15.738807</a></li>
-        <li>Legendre, M. G., Heredia, C. A., Colee, C. M., <strong>Muchenje, K.</strong>,
-          Wang, Y., Pistilli, V. &amp; Demirer, G. S. Extracellular contractile injection
-          systems for receptor-mediated protein delivery into plant cells.
-          <cite>bioRxiv</cite> (2025).
-          <a class="doi" href="https://doi.org/10.1101/2025.08.22.671880">doi:10.1101/2025.08.22.671880</a></li>
-      </ol>
-
-      <p class="sub">Research resources</p>
-      <p>R2Tg editor constructs are deposited at Addgene. Sequencing data are at NCBI SRA
-      under BioProjects PRJNA1463879 and PRJNA1484212. Analysis code is at
-      <a href="https://github.com/kimuchenje">github.com/kimuchenje</a> and
-      <a href="https://github.com/DemirerLab">github.com/DemirerLab</a>.</p>
-    </div>
-  </section>
-
-  <section class="row" id="mentoring">
-    <p class="label">Mentoring</p>
-    <div class="body-col">
-      <div class="stack">
-        <div>
-          <h3>Jekesa Ramangwana, founder</h3>
-          <p>A genomics, bioinformatics, and genome editing course for high school and
-          college students in Zimbabwe, funded by a Kathryn Davis Peace Project award of
-          $10,000, exposing students to cutting edge research techniques and their
-          applications in biomedical research, agriculture, and microbiology.</p>
-        </div>
-        <div>
-          <h3>SynBio4ALL Africa, instructor</h3>
-          <p>Virtual synthetic biology course curricula focusing on plant genome editing,
-          delivered to over 100 students across Africa.</p>
-        </div>
-        <div>
-          <h3>San Marino High School, research mentor</h3>
-          <p>Meeting with students every two weeks through the full school year on a
-          project extending the R2Tg editor to an 11 kb payload carrying a four-gene
-          mushroom luciferin biosynthesis pathway, testing whether the integrated copies
-          are full-length and functional.</p>
-        </div>
-        <div>
-          <h3>Teaching Assistant, ChE/Ch/BE 130, Caltech</h3>
-          <p>Designed and taught a laboratory course in which students used CRISPR-Cas9
-          to knock out genes in <em>N. benthamiana</em> and observed the knockout
-          phenotypes, which ran across two offerings.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="row" id="news">
-    <p class="label">In the news</p>
-    <div class="body-col">
-      <p>“Improving Plants with a Tool Borrowed from Birds.” <cite>Caltech News</cite>,
-      June 2026. Interviewed as lead author.</p>
-    </div>
-  </section>
-
-  <section class="row" id="contact">
-    <p class="label">Contact</p>
-    <div class="body-col">
-      <p>kmuchenj@caltech.edu</p>
-      <p>Division of Biology and Biological Engineering, California Institute of
-      Technology, 1200 E California Blvd, Pasadena, CA 91125</p>
-    </div>
-  </section>
-
-  <footer>
-    <p>Demirer Lab, California Institute of Technology.</p>
-  </footer>
+  </div>
+    <p class="next"><a href="research.html">Research &rarr;</a></p>
 </main>
 
+<footer class="wrap">
+  <p>kmuchenj@caltech.edu</p>
+  <p>Division of Biology and Biological Engineering, California Institute of Technology,
+  1200 E California Blvd, Pasadena, CA 91125</p>
+</footer>
 </body>
 </html>

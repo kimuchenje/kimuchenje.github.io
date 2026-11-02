@@ -71,6 +71,10 @@ h1{font-family:var(--display);font-weight:600;font-size:clamp(2.1rem,6vw,3.2rem)
 .gallery{display:grid;gap:16px;margin-top:40px;
          grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
 .gallery figure{margin:0}
+.gallery figcaption{margin-top:9px;font-size:.86rem;line-height:1.45;
+             color:var(--muted);text-align:center}
+.gallery-head{font-family:var(--display);font-weight:600;color:var(--pink);
+             font-size:1.22rem;text-align:center;margin:50px 0 0}
 .gallery img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;
              border-radius:var(--r);background:var(--card)}
 .gallery.tall img{aspect-ratio:1/1}

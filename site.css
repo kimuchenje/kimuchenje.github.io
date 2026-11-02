@@ -54,6 +54,27 @@ h1{font-family:var(--display);font-weight:600;font-size:clamp(2.1rem,6vw,3.2rem)
        line-height:1.58;color:var(--ink)}
 .intro + .intro{margin-top:1em}
 
+/* ---------- hero with portrait ---------- */
+.hero{display:grid;grid-template-columns:300px minmax(0,1fr);gap:40px;
+      align-items:center;margin-top:34px}
+.portrait{width:100%;height:auto;aspect-ratio:1/1.14;object-fit:cover;
+      object-position:50% 20%;border-radius:999px 999px 26px 26px;
+      background:var(--card)}
+.hero .intro{margin:0;text-align:left;max-width:52ch}
+@media (max-width:760px){
+  .hero{grid-template-columns:1fr;gap:26px;justify-items:center}
+  .portrait{max-width:250px}
+  .hero .intro{text-align:center}
+}
+
+/* ---------- photo gallery ---------- */
+.gallery{display:grid;gap:16px;margin-top:40px;
+         grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.gallery figure{margin:0}
+.gallery img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;
+             border-radius:var(--r);background:var(--card)}
+.gallery.tall img{aspect-ratio:1/1}
+
 /* ---------- pull quote ---------- */
 .goal{margin:56px auto 0;max-width:720px;background:var(--card);
       border-radius:var(--r);padding:34px 30px;text-align:center}
